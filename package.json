@@ -1,6 +1,10 @@
 {
-  "name": "electron-vue",
-  "version": "0.1.0",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "license": "{{license}}",
+  "main": "{{main}}",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,7 +15,6 @@
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
   },
-  "main": "background.js",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
